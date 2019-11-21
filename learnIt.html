@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        body {
+            background: #fafafa;
+            margin-top: 5rem;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #444444;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+        .bg-steel {
+            background-color: #5f788a;
+        }
+
+        .site-header .navbar-nav .nav-link {
+            color: #cbd5db;
+        }
+
+        .site-header .navbar-nav .nav-link:hover {
+            color: #ffffff;
+        }
+
+        .site-header .navbar-nav .nav-link.active {
+            font-weight: 500;
+        }
+        .content-section {
+            background: #ffffff;
+            padding: 10px 20px;
+            border: 1px solid #dddddd;
+            border-radius: 3px;
+            margin-bottom: 20px;
+        }
+        ::selection {
+            opacity: 50%;
+            background: yellow;
+            color: black;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:100%;
+            height:100%;
+            }
+        .loader-wrapper {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #242f3f;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            }
+        .loader {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            border: 4px solid #Fff;
+            animation: loader 2s infinite ease;
+            }
+        .loader-inner {
+            vertical-align: top;
+            display: inline-block;
+            width: 100%;
+            background-color: #fff;
+            animation: loader-inner 2s infinite ease-in;
+            }
+        @keyframes loader {
+            0% { transform: rotate(0deg);}
+            25% { transform: rotate(180deg);}
+            50% { transform: rotate(180deg);}
+            75% { transform: rotate(360deg);}
+            100% { transform: rotate(360deg);}
+            }
+        @keyframes loader-inner {
+            0% { height: 0%;}
+            25% { height: 0%;}
+            50% { height: 100%;}
+            75% { height: 100%;}
+            100% { height: 0%;}
+            }
+    </style>
+
+    <title>Learn IT!</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
+            <div class="container">
+                <a class="navbar-brand mr-4" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                    aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="navbar-nav mr-auto">
+                        <a class="nav-item nav-link" href="#py">Python</a>
+                        <a class="nav-item nav-link" href="#pyadv">Advance Python</a>
+                        <a class="nav-item nav-link" href="#wb">Web-Development</a>
+                        <a class="nav-item nav-link" href="#wbadv">Advanced Web-Development</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="container ">
+        <div class="python content-section bg-primary" id="py">
+            <h3 class="text-light">Python Basics</h3>
+            <ul>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Corey Schafer</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Braine Faure</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLEJyjB1oGzx2h88Tj90B5_HadLq339Cso"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Real Python</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLP8GkvaIxJP3ignHY_Dq7bFsvwzAcqZ1i"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Code Basics</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLeo1K3hjS3uub3PRhdoCTY8BxMKSW7RjN"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">The Codex</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLB5jA40tNf3tRMbTpBA0N7lfDZNLZAa9G"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Keith Galli</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLFCB5Dp81iNVmuoGIqcT5oF4K-7kTI5vp"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Indian Pythonista</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLyb_C2HpOQSCw94SAv73NXYkjuJz5A6_Z"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Telusko</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <h6 class="text-light text-center">&diams; This is Just BEGINNING &diams;</h6>
+            </ul>
+        </div>
+        <div class="advance_p content-section bg-danger" id="pyadv">
+            <h3 class="text-light">Advanced Python</h3>
+            <ul>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Sentdex</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Data Science Dogo</h5>
+                    <iframe width="95%" height="250px" src="https://www.youtube.com/embed/XQgXKtPSzUI" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Joseph Delgadillo</h5>
+                    <iframe width="95%" height="250px" src="https://www.youtube.com/embed/T_ekAD7U-wU"" frameborder=" 0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">The Dumb Founds</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLbpAWbHbi5rMV3H0S5IDK3cSRC1Jas3VP"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-light">Data School</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PL5-da3qGB5IBITZj_dYSFqnd_15JgqwA6"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <h6 class="text-light text-center">&diams; This is Just BEGINNING &diams;</h6>
+            </ul>
+        </div>
+        <div class="web content-section bg-warning " id="wb">
+            <h3>Web-Development</h3>
+            <ul>
+                <li>
+                    <hr>
+                    <h5 class="text-dark">Traversy Media</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-dark">Online Tutorials</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PL5e68lK9hEzebKqqREULz07nwesT2tJxG"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-dark">Dev Ed</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PLDyQo7g0_nsUjf046cCHKJ16U1SoXrElZ"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-dark">FreeCodeCamp.org</h5>
+                    <iframe width="95%" height="250px" src="https://www.youtube.com/embed/mU6anWqZJcc" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <hr>
+                    <h5 class="text-dark">Kevin Powell</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PL4-IK0AVhVjNKdH-sQgq_z8gfqC6pRC9V"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <h6 class="text-light text-center">&diams; This is Just BEGINNING &diams;</h6>
+            </ul>
+        </div>
+        <div class="advance_w content-section bg-danger" id="wbadv">
+            <h3>Advanced Web-development</h3>
+            <ul>
+                <li>
+                    <hr>
+                    <h5 class="text-dark">Programming with Mosh</h5>
+                    <iframe width="95%" height="250px" src="https://www.youtube.com/embed/k5E2AVpwsko" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li>
+                <!-- <li>
+                    <hr>
+                    <h5 class="text-dark">Kevin Powell</h5>
+                    <iframe width="95%" height="250px"
+                        src="https://www.youtube.com/embed/videoseries?list=PL4-IK0AVhVjNKdH-sQgq_z8gfqC6pRC9V" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </li> -->
+                <h6 class="text-light text-center">&diams; This is Just BEGINNING &diams;</h6>
+            </ul>
+        </div>
+        <!-- <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div> -->
+    </main>
+    <footer class="bg-dark text-center text-light"> &copy; &diam; Anshul Saraf &diam;</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
